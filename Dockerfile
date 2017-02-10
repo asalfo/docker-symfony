@@ -1,5 +1,6 @@
 From php:5.6-apache
 MAINTAINER Salif Guigma <salif.guigma@gmail.com>
+
 RUN apt-get update && apt-get install -y --no-install-recommends \
       libicu-dev \
       vim \
