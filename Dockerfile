@@ -13,6 +13,7 @@ RUN buildDeps=" \
           libicu-dev \
           vim \
           git \
+          cron \
           && apt-get clean \
           && rm -rf /var/lib/apt/lists/* \
           && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
