@@ -5,7 +5,7 @@ RUN buildDeps=" \
             		libfreetype6-dev \
             		libjpeg-dev \
             		libmcrypt-dev \
-            		libpng12-dev \
+            		libpng-dev \
             		zlib1g-dev \
           "; \
           set -x \
