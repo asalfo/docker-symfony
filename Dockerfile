@@ -57,4 +57,3 @@ RUN buildDeps=" \
           && echo "apc.enabled=1" >> $PHP_INI_DIR/conf.d/php.ini  \
           && echo "apc.enable_cli=1" >> $PHP_INI_DIR/conf.d/php.ini  \
           && echo "extension=twig.so" >> $PHP_INI_DIR/conf.d/php.ini
-CMD ["cron"]
