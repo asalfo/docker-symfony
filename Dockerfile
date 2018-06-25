@@ -32,7 +32,7 @@ RUN buildDeps=" \
           && docker-php-ext-configure intl --with-icu-dir=/usr/local \
           && docker-php-ext-install zip pdo pdo_mysql opcache intl sockets mbstring bcmath \
           && a2enmod rewrite \
-          && pecl install xdebug \
+          && pecl install xdebug-2.5.5 \
           && pecl clear-cache \
           && echo "zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20131226/xdebug.so" > /usr/local/etc/php/conf.d/xdebug.ini \
           && echo "xdebug.remote_enable=On" >> /usr/local/etc/php/conf.d/xdebug.ini \
