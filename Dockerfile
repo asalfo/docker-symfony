@@ -13,6 +13,7 @@ RUN buildDeps=" \
           libicu-dev \
           vim \
           git \
+          openssh-client \
           cron \
           && apt-get clean \
           && rm -rf /var/lib/apt/lists/* \
